@@ -1,202 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sarjit Thakor | Senior Laravel Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Sarjit Thakor | Senior Laravel Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            background: #f9fafb;
-            color: #333;
-            line-height: 1.6;
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0f172a',
+            accent: '#2563eb',
+          }
         }
-        header {
-            background: #0f172a;
-            color: #fff;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        section {
-            max-width: 1000px;
-            margin: auto;
-            padding: 40px 20px;
-        }
-        h2 {
-            color: #0f172a;
-            border-bottom: 2px solid #e5e7eb;
-            padding-bottom: 8px;
-        }
-        .skills span {
-            display: inline-block;
-            background: #e5e7eb;
-            padding: 6px 12px;
-            margin: 6px;
-            border-radius: 6px;
-            font-size: 14px;
-        }
-        .project {
-            background: #fff;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        footer {
-            background: #0f172a;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        a {
-            color: #2563eb;
-            text-decoration: none;
-        }
-    </style>
+      }
+    }
+  </script>
 </head>
 
-<body>
+<body class="bg-gray-50 text-gray-800">
 
-<header>
-    <h1>Sarjit Thakor</h1>
-    <p>Senior Laravel / PHP Developer</p>
-    <p>Ahmedabad, Gujarat, India</p>
-    <p>
-        📧 sarjitthakor08@gmail.com |
-        📞 +91 86738 71764 |
-        <a href="https://in.linkedin.com/in/sarjit-thakor-049936171" target="_blank">LinkedIn</a>
+<!-- HERO -->
+<section class="bg-primary text-white">
+  <div class="max-w-6xl mx-auto px-6 py-20 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold">Sarjit Thakor</h1>
+    <p class="mt-4 text-xl text-gray-300">
+      Senior Laravel / PHP Developer (5.5+ Years)
     </p>
-</header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        Software Developer with <strong>5.5+ years of experience</strong> building scalable,
-        secure, and high-performance web applications using Laravel, PHP, and modern
-        API-driven architectures. I have delivered production-ready solutions across
-        fintech, booking systems, real estate, e-commerce, and enterprise platforms.
+    <p class="mt-6 max-w-3xl mx-auto text-gray-300">
+      Building scalable, secure, and high-performance web applications using Laravel,
+      REST APIs, and modern backend architecture.
     </p>
+
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a href="mailto:sarjitthakor08@gmail.com"
+         class="bg-accent px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+        Contact Me
+      </a>
+      <a href="https://github.com/sarjitthakor" target="_blank"
+         class="border border-gray-400 px-6 py-3 rounded-lg hover:bg-white hover:text-primary transition">
+        GitHub
+      </a>
+    </div>
+  </div>
 </section>
 
-<section>
-    <h2>Technical Skills</h2>
-
-    <h3>Backend</h3>
-    <div class="skills">
-        <span>Laravel</span>
-        <span>PHP</span>
-        <span>CodeIgniter 3</span>
-        <span>REST APIs</span>
-        <span>JWT / Sanctum / Passport</span>
-        <span>RBAC</span>
-        <span>Queues & Jobs</span>
-    </div>
-
-    <h3>Database & Performance</h3>
-    <div class="skills">
-        <span>MySQL</span>
-        <span>Migrations</span>
-        <span>Indexing</span>
-        <span>Query Optimization</span>
-        <span>MongoDB (Basic)</span>
-        <span>Caching</span>
-    </div>
-
-    <h3>Frontend</h3>
-    <div class="skills">
-        <span>HTML5</span>
-        <span>CSS3</span>
-        <span>Bootstrap</span>
-        <span>JavaScript</span>
-        <span>jQuery</span>
-        <span>Vue.js</span>
-    </div>
-
-    <h3>Tools & Integrations</h3>
-    <div class="skills">
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>AWS S3</span>
-        <span>Firebase</span>
-        <span>Stripe</span>
-        <span>PayPal</span>
-        <span>Google APIs</span>
-    </div>
+<!-- ABOUT -->
+<section class="max-w-6xl mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold text-primary mb-6">About Me</h2>
+  <p class="text-lg leading-relaxed">
+    Software Developer with <strong>5.5+ years of experience</strong> delivering
+    production-ready Laravel applications across fintech, booking systems,
+    real estate platforms, and enterprise products. Strong focus on
+    clean architecture, API-driven development, and performance optimization.
+  </p>
 </section>
 
-<section>
-    <h2>Professional Experience</h2>
+<!-- SKILLS -->
+<section class="bg-white">
+  <div class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-primary mb-10">Technical Skills</h2>
 
-    <div class="project">
-        <h3>Senior PHP Developer — CMARIX TechnoLabs Pvt. Ltd</h3>
-        <p><em>Aug 2024 – Oct 2025</em></p>
-        <ul>
-            <li>Developed scalable Laravel applications using clean architecture principles.</li>
-            <li>Integrated payment gateways, AWS S3, and third-party APIs.</li>
-            <li>Optimized MySQL queries to improve performance and response time.</li>
-            <li>Implemented background jobs using Laravel Queues.</li>
-        </ul>
-    </div>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div>
+        <h3 class="font-semibold text-xl mb-4">Backend</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill">Laravel</span>
+          <span class="skill">PHP</span>
+          <span class="skill">CodeIgniter</span>
+          <span class="skill">REST APIs</span>
+          <span class="skill">JWT / Sanctum / Passport</span>
+          <span class="skill">Queues & Jobs</span>
+          <span class="skill">RBAC</span>
+        </div>
+      </div>
 
-    <div class="project">
-        <h3>Software Developer — Tuvoc Technologies Pvt. Ltd</h3>
-        <p><em>Aug 2021 – Jul 2024</em></p>
-        <ul>
-            <li>Built Laravel and Core PHP applications from scratch.</li>
-            <li>Designed REST APIs with JWT authentication.</li>
-            <li>Worked closely with clients and cross-functional teams.</li>
-        </ul>
-    </div>
+      <div>
+        <h3 class="font-semibold text-xl mb-4">Database & Performance</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill">MySQL</span>
+          <span class="skill">Migrations</span>
+          <span class="skill">Indexing</span>
+          <span class="skill">Query Optimization</span>
+          <span class="skill">Caching</span>
+          <span class="skill">MongoDB (Basic)</span>
+        </div>
+      </div>
 
-    <div class="project">
-        <h3>PHP Developer — Multiline Technolabs Pvt. Ltd</h3>
-        <p><em>Jun 2019 – Jul 2021</em></p>
-        <ul>
-            <li>Developed backend modules using PHP & CodeIgniter.</li>
-            <li>Integrated third-party services and APIs.</li>
-            <li>Optimized database schemas for performance.</li>
-        </ul>
+      <div>
+        <h3 class="font-semibold text-xl mb-4">Frontend</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">Bootstrap</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">jQuery</span>
+          <span class="skill">Vue.js</span>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-xl mb-4">Tools & Integrations</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="skill">Git</span>
+          <span class="skill">GitHub</span>
+          <span class="skill">AWS S3</span>
+          <span class="skill">Firebase</span>
+          <span class="skill">Stripe</span>
+          <span class="skill">PayPal</span>
+          <span class="skill">Google APIs</span>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<section>
-    <h2>Key Projects</h2>
+<!-- EXPERIENCE -->
+<section class="max-w-6xl mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold text-primary mb-10">Experience</h2>
 
-    <div class="project">
-        <h3>Wellness Bali – Booking & Real-Time Platform</h3>
-        <p><strong>Laravel, MySQL, Firebase</strong></p>
-        <p>Appointment booking system with real-time confirmations, chat, and live tracking.</p>
+  <div class="space-y-8">
+    <div class="card">
+      <h3 class="text-xl font-semibold">Senior PHP Developer — CMARIX TechnoLabs</h3>
+      <p class="text-gray-500">Aug 2024 – Oct 2025</p>
+      <ul class="list-disc ml-5 mt-4 space-y-2">
+        <li>Developed scalable Laravel applications using clean architecture.</li>
+        <li>Integrated payment gateways, AWS S3, and third-party APIs.</li>
+        <li>Optimized MySQL queries to reduce response times.</li>
+        <li>Implemented queues and background jobs.</li>
+      </ul>
     </div>
 
-    <div class="project">
-        <h3>Zimoney – Fintech Platform</h3>
-        <p><strong>Laravel, AWS, Payment Gateways</strong></p>
-        <p>International money transfer system with KYC, compliance, and audit logging.</p>
+    <div class="card">
+      <h3 class="text-xl font-semibold">Software Developer — Tuvoc Technologies</h3>
+      <p class="text-gray-500">Aug 2021 – Jul 2024</p>
+      <ul class="list-disc ml-5 mt-4 space-y-2">
+        <li>Built Laravel & Core PHP applications from scratch.</li>
+        <li>Designed secure REST APIs with JWT authentication.</li>
+        <li>Collaborated with clients and cross-functional teams.</li>
+      </ul>
     </div>
 
-    <div class="project">
-        <h3>ELEV System – Driving School Platform</h3>
-        <p><strong>Laravel, Google APIs</strong></p>
-        <p>Backend APIs with automated scheduling via Google Calendar.</p>
+    <div class="card">
+      <h3 class="text-xl font-semibold">PHP Developer — Multiline Technolabs</h3>
+      <p class="text-gray-500">Jun 2019 – Jul 2021</p>
+      <ul class="list-disc ml-5 mt-4 space-y-2">
+        <li>Developed backend modules using PHP & CodeIgniter.</li>
+        <li>Integrated third-party services and APIs.</li>
+        <li>Optimized database schemas.</li>
+      </ul>
     </div>
-
-    <div class="project">
-        <h3>Magio – Task Management System</h3>
-        <p><strong>Laravel, Vue.js</strong></p>
-        <p>Task tracking, time logging, and role-based dashboards.</p>
-    </div>
+  </div>
 </section>
 
-<section>
-    <h2>Education</h2>
-    <p>Bachelor of Computer Applications (BCA) — JG College of Computer Application</p>
+<!-- PROJECTS -->
+<section class="bg-white">
+  <div class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-primary mb-10">Key Projects</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="card">
+        <h3 class="font-semibold text-xl">Zimoney – Fintech Platform</h3>
+        <p class="text-sm text-gray-500">Laravel • AWS • Payment Gateways</p>
+        <p class="mt-3">
+          Secure international money transfer system with KYC verification,
+          compliance logging, and transaction monitoring.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="font-semibold text-xl">Wellness Bali – Booking Platform</h3>
+        <p class="text-sm text-gray-500">Laravel • Firebase • MySQL</p>
+        <p class="mt-3">
+          Appointment booking system with real-time confirmations,
+          live chat, and location tracking.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="font-semibold text-xl">ELEV System – Driving School</h3>
+        <p class="text-sm text-gray-500">Laravel • Google APIs</p>
+        <p class="mt-3">
+          Backend services with automated scheduling via Google Calendar APIs.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="font-semibold text-xl">Magio – Task Management</h3>
+        <p class="text-sm text-gray-500">Laravel • Vue.js</p>
+        <p class="mt-3">
+          Task assignment, time tracking, and role-based dashboards.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<footer>
-    <p>© 2026 Sarjit Thakor | Senior Laravel Developer</p>
+<!-- FOOTER -->
+<footer class="bg-primary text-gray-300 text-center py-6">
+  <p>© 2026 Sarjit Thakor — Senior Laravel Developer</p>
 </footer>
+
+<!-- COMPONENT STYLES -->
+<style>
+  .skill {
+    @apply bg-gray-100 px-3 py-1 rounded-md text-sm;
+  }
+  .card {
+    @apply bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition;
+  }
+</style>
 
 </body>
 </html>
